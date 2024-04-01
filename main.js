@@ -31,19 +31,14 @@ class ModuleInstance extends InstanceBase {
 	getConfigFields() {
 		return [
 			{
-				type: 'textinput',
-				id: 'host',
-				label: 'Target IP',
-				width: 8,
-				regex: Regex.IP,
+				id: 'rate',
+				type: 'number',
+				label: 'Refresh Rate',
+				default: 100,
+				min: 0,
+				max: 10000
 			},
-			{
-				type: 'textinput',
-				id: 'port',
-				label: 'Target Port',
-				width: 4,
-				regex: Regex.PORT,
-			},
+
 		]
 	}
 

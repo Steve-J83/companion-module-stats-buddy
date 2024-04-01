@@ -1,16 +1,16 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
+	"id": "stats-buddy",
+	"name": "stats-buddy",
+	"shortname": "stats",
 	"description": "A short one line description of your module",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/Steve-J83/companion-module-stats-buddy",
+	"bugs": "https://github.com/Steve-J83/companion-module-stats-buddy/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Steven Johnson",
+			"email": "stevenjohnson.video@gmail.com"
 		}
 	],
 	"runtime": {
@@ -20,7 +20,7 @@
 		"entrypoint": "../main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+	"manufacturer": "Raspberry Pi",
+	"products": ["Stats Buddy"],
+	"keywords": ["Pi", "Stats", "Utility"]
 }

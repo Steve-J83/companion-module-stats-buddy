@@ -36,9 +36,8 @@ class ModuleInstance extends InstanceBase {
 				label: 'Refresh Rate',
 				default: 100,
 				min: 0,
-				max: 10000
+				max: 10000,
 			},
-
 		]
 	}
 

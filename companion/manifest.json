@@ -2,7 +2,7 @@
 	"id": "stats-buddy",
 	"name": "stats-buddy",
 	"shortname": "stats",
-	"description": "A short one line description of your module",
+	"description": "Hardware Stats for the Pi",
 	"version": "0.0.0",
 	"license": "MIT",
 	"repository": "git+https://github.com/Steve-J83/companion-module-stats-buddy",
